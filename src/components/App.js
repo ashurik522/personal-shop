@@ -8,11 +8,10 @@ import Home from "./home.js";
 import Header from "./header.js";
 import "../styles/app.css";
 
-//Testing GIT
-
 export default function App() {
   return (
     <div>
+      <h1>Drew</h1>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
